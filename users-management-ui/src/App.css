@@ -1,0 +1,38 @@
+/* src/App.css */
+
+/* Basic styling for the user grid */
+.user-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Basic styling for individual user cards */
+.user-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Style the select dropdown */
+select {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
